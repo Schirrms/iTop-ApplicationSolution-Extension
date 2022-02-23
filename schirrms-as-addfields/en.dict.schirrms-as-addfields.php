@@ -31,7 +31,7 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:ApplicationSolution/Attribute:as_type/Value:job' => 'Business',
 	'Class:ApplicationSolution/Attribute:as_type/Value:technical' => 'Technical',
 	'Class:ApplicationSolution/Attribute:as_type/Value:a10' => 'Sur A10',
-	'Class:ApplicationSolution/Attribute:as_user_number' => 'Number of users',
+	'Class:ApplicationSolution/Attribute:as_user_count' => 'Number of users',
 	'Class:ApplicationSolution/Attribute:as_user_type' => 'Type of users',
 ));
 ?>

@@ -31,7 +31,7 @@ Dict::Add('FR FR', 'French', 'French', array(
 	'Class:ApplicationSolution/Attribute:as_type/Value:job' => 'Métier',
 	'Class:ApplicationSolution/Attribute:as_type/Value:technical' => 'Technique',
 	'Class:ApplicationSolution/Attribute:as_type/Value:a10' => 'Sur A10',
-	'Class:ApplicationSolution/Attribute:as_user_number' => 'Nombre d\'utilisateurs',
+	'Class:ApplicationSolution/Attribute:as_user_count' => 'Nombre d\'utilisateurs',
 	'Class:ApplicationSolution/Attribute:as_user_type' => 'Type d\'utilisateurs',
 ));
 ?>
