@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <constants>
+  </constants>
+  <classes>
+    <class id="ApplicationSolution" _delta="must_exist">
+      <fields>
+        <field id="as_cos" xsi:type="AttributeEnum" _delta="define">
+          <values>
+            <value id="247">247</value>
+            <value id="715">715</value>
+            <value id="830">830</value>
+          </values>
+          <sql>as_cos</sql>
+          <is_null_allowed>true</is_null_allowed>
+          <default_value></default_value>
+        </field>
+        <field id="as_domain" xsi:type="AttributeTagSet" _delta="define">
+          <sql>as_domain</sql>
+          <is_null_allowed>true</is_null_allowed>
+          <max_items>7</max_items>
+          <tag_code_max_len>20</tag_code_max_len>
+          <tracking_level>all</tracking_level>
+        </field>
+        <field id="as_end_date" xsi:type="AttributeDate" _delta="define">
+          <sql>as_end_date</sql>
+          <is_null_allowed>true</is_null_allowed>
+          <default_value></default_value>
+        </field>
+        <field id="as_last_update" xsi:type="AttributeDate" _delta="define">
+          <sql>as_last_update</sql>
+          <is_null_allowed>true</is_null_allowed>
+          <default_value></default_value>
+        </field>
+        <field id="as_nature" xsi:type="AttributeEnum" _delta="define">
+          <values>
+            <value id="mixed">mixed</value>
+            <value id="partner">partner</value>
+            <value id="package">package</value>
+            <value id="specif">specific</value>
+          </values>
+          <sql>as_nature</sql>
+          <is_null_allowed>true</is_null_allowed>
+          <default_value></default_value>
+        </field>
+        <field id="as_state" xsi:type="AttributeEnum" _delta="define">
+          <values>
+            <value id="undefined">undefined</value>
+            <value id="decommissioning">decommissioning</value>
+            <value id="decommissioned">decommissioned</value>
+            <value id="production">production</value>
+            <value id="external">external</value>
+            <value id="future">future</value>
+          </values>
+          <sql>as_state</sql>
+          <is_null_allowed>true</is_null_allowed>
+          <default_value></default_value>
+        </field>
+        <field id="as_type" xsi:type="AttributeEnum" _delta="define">
+          <values>
+            <value id="job">job</value>
+            <value id="technical">technical</value>
+            <value id="a10">a10</value>
+          </values>
+          <sql>as_type</sql>
+          <is_null_allowed>true</is_null_allowed>
+          <default_value></default_value>
+        </field>
+        <field id="as_user_count" xsi:type="AttributeInteger" _delta="define">
+          <sql>as_user_count</sql>
+          <is_null_allowed>true</is_null_allowed>
+          <default_value></default_value>
+        </field>
+        <field id="as_user_type" xsi:type="AttributeTagSet" _delta="define">
+          <sql>as_user_type</sql>
+          <is_null_allowed>true</is_null_allowed>
+          <max_items>5</max_items>
+          <tag_code_max_len>20</tag_code_max_len>
+          <tracking_level>all</tracking_level>
+        </field>
+      </fields>
+      <presentation>
+        <details _delta="must_exist">
+          <items>
+            <item id="as_last_update" _delta="define">
+              <rank>55</rank>
+            </item>
+            <item id="as_end_date" _delta="define">
+              <rank>56</rank>
+            </item>
+            <item id="as_type" _delta="define">
+              <rank>13</rank>
+            </item>
+            <item id="as_cos" _delta="define">
+              <rank>14</rank>
+            </item>
+            <item id="as_state" _delta="define">
+              <rank>18</rank>
+            </item>
+            <item id="as_nature" _delta="define">
+              <rank>19</rank>
+            </item>
+            <item id="as_user_number" _delta="define">
+              <rank>16</rank>
+            </item>
+            <item id="as_user_type" _delta="define">
+              <rank>17</rank>
+            </item>
+            <item id="as_domain" _delta="define">
+              <rank>15</rank>
+            </item>
+          </items>
+        </details>
+      </presentation>
+    </class>
+  </classes>
+  <menus>
+  </menus>
+  <user_rights>
+    <groups>
+    </groups>
+    <profiles>
+    </profiles>
+  </user_rights>
+</itop_design>
