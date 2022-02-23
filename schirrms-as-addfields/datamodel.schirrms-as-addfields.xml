@@ -100,7 +100,7 @@
             <item id="as_nature" _delta="define">
               <rank>19</rank>
             </item>
-            <item id="as_user_number" _delta="define">
+            <item id="as_user_count" _delta="define">
               <rank>16</rank>
             </item>
             <item id="as_user_type" _delta="define">
