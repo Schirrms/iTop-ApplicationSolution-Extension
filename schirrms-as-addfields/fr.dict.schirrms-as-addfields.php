@@ -12,7 +12,7 @@ Dict::Add('FR FR', 'French', 'French', array(
 	'Class:ApplicationSolution/Attribute:as_cos/Value:247' => '24 heures / 24 - 7 jours / 7',
 	'Class:ApplicationSolution/Attribute:as_cos/Value:715' => 'lundi au vendredi, 7h15 à 19h15',
 	'Class:ApplicationSolution/Attribute:as_cos/Value:830' => 'lundi au vendredi, 8h30 à 18h30',
-	'Class:ApplicationSolution/Attribute:as_domain' => 'Domaine fonctionel',
+	'Class:ApplicationSolution/Attribute:as_domain' => 'Domaine fonctionnel',
 	'Class:ApplicationSolution/Attribute:as_end_date' => 'Date de fin de service',
 	'Class:ApplicationSolution/Attribute:as_last_update' => 'Date de dernière mise à jour',
 	'Class:ApplicationSolution/Attribute:as_nature' => 'Nature',
